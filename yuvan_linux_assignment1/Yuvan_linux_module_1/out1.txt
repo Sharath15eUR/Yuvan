@@ -1,0 +1,1 @@
+-rwxr-xr-x. 1 21bcs122 cse-ug-2021b 0 Jan 23 14:10 file1

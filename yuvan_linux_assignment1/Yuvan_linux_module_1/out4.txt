@@ -1,0 +1,384 @@
+   PID TTY          TIME CMD
+     1 ?        00:56:51 systemd
+     2 ?        00:00:03 kthreadd
+     4 ?        00:00:00 kworker/0:0H
+     6 ?        00:00:13 ksoftirqd/0
+     7 ?        00:00:01 migration/0
+     8 ?        00:00:00 rcu_bh
+     9 ?        00:15:56 rcu_sched
+    10 ?        00:00:00 lru-add-drain
+    11 ?        00:00:05 watchdog/0
+    12 ?        00:00:05 watchdog/1
+    13 ?        00:00:01 migration/1
+    14 ?        00:00:02 ksoftirqd/1
+    16 ?        00:00:00 kworker/1:0H
+    17 ?        00:00:04 watchdog/2
+    18 ?        00:00:00 migration/2
+    19 ?        00:00:03 ksoftirqd/2
+    21 ?        00:00:00 kworker/2:0H
+    22 ?        00:00:05 watchdog/3
+    23 ?        00:00:00 migration/3
+    24 ?        00:00:03 ksoftirqd/3
+    26 ?        00:00:00 kworker/3:0H
+    27 ?        00:00:05 watchdog/4
+    28 ?        00:00:00 migration/4
+    29 ?        00:00:03 ksoftirqd/4
+    31 ?        00:00:00 kworker/4:0H
+    32 ?        00:00:03 watchdog/5
+    33 ?        00:00:00 migration/5
+    34 ?        00:00:01 ksoftirqd/5
+    36 ?        00:00:00 kworker/5:0H
+    37 ?        00:00:05 watchdog/6
+    38 ?        00:00:00 migration/6
+    39 ?        00:00:02 ksoftirqd/6
+    41 ?        00:00:00 kworker/6:0H
+    42 ?        00:00:04 watchdog/7
+    43 ?        00:00:00 migration/7
+    44 ?        00:00:02 ksoftirqd/7
+    46 ?        00:00:00 kworker/7:0H
+    47 ?        00:00:04 watchdog/8
+    48 ?        00:00:02 migration/8
+    49 ?        00:00:03 ksoftirqd/8
+    51 ?        00:00:00 kworker/8:0H
+    52 ?        00:00:04 watchdog/9
+    53 ?        00:00:02 migration/9
+    54 ?        00:00:02 ksoftirqd/9
+    56 ?        00:00:00 kworker/9:0H
+    57 ?        00:00:04 watchdog/10
+    58 ?        00:00:02 migration/10
+    59 ?        00:00:02 ksoftirqd/10
+    61 ?        00:00:00 kworker/10:0H
+    62 ?        00:00:04 watchdog/11
+    63 ?        00:00:02 migration/11
+    64 ?        00:00:01 ksoftirqd/11
+    66 ?        00:00:00 kworker/11:0H
+    67 ?        00:00:04 watchdog/12
+    68 ?        00:00:02 migration/12
+    69 ?        00:00:01 ksoftirqd/12
+    71 ?        00:00:00 kworker/12:0H
+    72 ?        00:00:03 watchdog/13
+    73 ?        00:00:02 migration/13
+    74 ?        00:00:01 ksoftirqd/13
+    76 ?        00:00:00 kworker/13:0H
+    77 ?        00:00:04 watchdog/14
+    78 ?        00:00:02 migration/14
+    79 ?        00:00:01 ksoftirqd/14
+    81 ?        00:00:00 kworker/14:0H
+    82 ?        00:00:04 watchdog/15
+    83 ?        00:00:02 migration/15
+    84 ?        00:00:01 ksoftirqd/15
+    86 ?        00:00:00 kworker/15:0H
+    88 ?        00:00:00 kdevtmpfs
+    89 ?        00:00:00 netns
+    90 ?        00:00:01 khungtaskd
+    91 ?        00:00:00 writeback
+    92 ?        00:00:00 kintegrityd
+    93 ?        00:00:00 bioset
+    94 ?        00:00:00 bioset
+    95 ?        00:00:00 bioset
+    96 ?        00:00:00 kblockd
+    97 ?        00:00:00 md
+    98 ?        00:00:00 edac-poller
+    99 ?        00:00:00 watchdogd
+   108 ?        00:00:40 kswapd0
+   109 ?        00:00:00 ksmd
+   110 ?        00:00:11 khugepaged
+   111 ?        00:00:00 crypto
+   119 ?        00:00:00 kthrotld
+   121 ?        00:00:00 kmpath_rdacd
+   122 ?        00:00:00 kaluad
+   123 ?        00:00:00 kpsmoused
+   125 ?        00:00:00 ipv6_addrconf
+   139 ?        00:00:00 deferwq
+   185 ?        00:00:17 kauditd
+   350 ?        00:00:00 nfit
+   363 ?        00:00:00 scsi_eh_0
+   364 ?        00:00:00 scsi_tmf_0
+   365 ?        00:00:00 ata_sff
+   366 ?        00:00:00 bnxt_pf_wq
+   367 ?        00:00:00 i40e
+   373 ?        00:00:00 scsi_eh_1
+   374 ?        00:00:00 scsi_tmf_1
+   375 ?        00:00:00 scsi_eh_2
+   376 ?        00:00:00 scsi_tmf_2
+   377 ?        00:00:00 scsi_eh_3
+   378 ?        00:00:00 scsi_tmf_3
+   379 ?        00:00:00 scsi_eh_4
+   380 ?        00:00:00 scsi_tmf_4
+   381 ?        00:00:00 scsi_eh_5
+   382 ?        00:00:00 scsi_tmf_5
+   383 ?        00:00:00 scsi_eh_6
+   384 ?        00:00:00 scsi_tmf_6
+   389 ?        00:00:00 ttm_swap
+   390 ?        00:00:00 scsi_eh_7
+   391 ?        00:00:00 scsi_tmf_7
+   392 ?        00:00:00 scsi_eh_8
+   393 ?        00:00:00 scsi_tmf_8
+   394 ?        00:00:00 scsi_eh_9
+   395 ?        00:00:00 scsi_tmf_9
+   396 ?        00:00:00 scsi_eh_10
+   397 ?        00:00:00 scsi_tmf_10
+   398 ?        00:00:00 scsi_eh_11
+   399 ?        00:00:00 scsi_tmf_11
+   400 ?        00:00:00 scsi_eh_12
+   401 ?        00:00:00 scsi_tmf_12
+   402 ?        00:00:00 scsi_eh_13
+   403 ?        00:00:00 scsi_tmf_13
+   404 ?        00:00:00 scsi_eh_14
+   405 ?        00:00:00 scsi_tmf_14
+   423 ?        00:00:00 poll_megasas0_s
+   440 ?        00:00:00 bioset
+   441 ?        00:00:00 xfsalloc
+   442 ?        00:00:00 xfs_mru_cache
+   443 ?        00:00:00 xfs-buf/sda5
+   444 ?        00:00:00 xfs-data/sda5
+   445 ?        00:00:00 xfs-conv/sda5
+   446 ?        00:00:00 xfs-cil/sda5
+   447 ?        00:00:00 xfs-reclaim/sda
+   448 ?        00:00:00 xfs-log/sda5
+   449 ?        00:00:00 xfs-eofblocks/s
+   450 ?        00:08:25 xfsaild/sda5
+   451 ?        00:00:00 kworker/0:1H
+   536 ?        00:23:58 systemd-journal
+   571 ?        00:00:00 lvmetad
+   581 ?        00:00:12 systemd-udevd
+   721 ?        00:00:00 kworker/12:1H
+   722 ?        00:00:00 kipmi0
+   723 ?        00:00:00 irq/208-mei_me
+   737 ?        00:00:00 ib-comp-wq
+   738 ?        00:00:00 kworker/u481:0
+   739 ?        00:00:00 ib-comp-unb-wq
+   740 ?        00:00:00 ib_mcast
+   741 ?        00:00:00 ib_nl_sa_wq
+   743 ?        00:00:00 bnxt_re
+   803 ?        00:00:00 kvm-irqfd-clean
+   977 ?        00:00:00 xfs-buf/sda1
+   978 ?        00:00:00 xfs-data/sda1
+   979 ?        00:00:00 xfs-conv/sda1
+   980 ?        00:00:00 xfs-cil/sda1
+   981 ?        00:00:00 xfs-reclaim/sda
+   982 ?        00:00:00 xfs-log/sda1
+   983 ?        00:00:00 xfs-eofblocks/s
+   984 ?        00:00:00 xfs-buf/sda2
+   985 ?        00:00:00 xfs-data/sda2
+   986 ?        00:00:00 xfs-conv/sda2
+   987 ?        00:00:00 xfs-cil/sda2
+   988 ?        00:00:00 xfs-reclaim/sda
+   989 ?        00:00:00 xfs-log/sda2
+   990 ?        00:00:00 xfs-eofblocks/s
+   998 ?        00:00:00 xfsaild/sda2
+  1000 ?        00:00:00 xfsaild/sda1
+  1036 ?        00:01:18 jbd2/sdb-8
+  1038 ?        00:00:00 ext4-rsv-conver
+  1414 ?        00:00:00 iwewq
+  1416 ?        00:00:00 iwdwq
+  1417 ?        00:00:00 iwewq
+  1423 ?        00:00:00 iwdwq
+  1448 ?        00:00:00 rdma_cm
+  1476 ?        00:00:00 iwvch
+  1477 ?        00:00:00 iwvch
+  1478 ?        00:00:00 l2params
+  1479 ?        00:00:00 l2params
+  1481 ?        00:00:00 rdma-ndd
+  1485 ?        00:00:00 srp_remove
+  1491 ?        00:00:00 iscsi_eh
+  1495 ?        00:00:00 target_completi
+  1496 ?        00:00:00 tmr-rd_mcp
+  1497 ?        00:00:00 xcopy_wq
+  1505 ?        00:00:00 rpciod
+  1506 ?        00:00:00 xprtiod
+  1511 ?        00:00:00 xprtrdma_receiv
+  1518 ?        00:01:21 auditd
+  1521 ?        00:01:23 audispd
+  1524 ?        00:00:50 sedispatch
+  1560 ?        00:00:02 rpcbind
+  1561 ?        00:02:29 systemd-machine
+  1562 ?        00:00:04 smartd
+  1563 ?        00:07:00 udisksd
+  1565 ?        21:06:52 avahi-daemon
+  1566 ?        00:21:32 systemd-logind
+  1567 ?        00:01:36 abrtd
+  1568 ?        00:00:49 abrt-watch-log
+  1569 ?        00:49:28 polkitd
+  1575 ?        01:08:15 accounts-daemon
+  1580 ?        00:00:00 abrt-watch-log
+  1581 ?        01:02:26 dbus-daemon
+  1589 ?        00:00:00 avahi-daemon
+  1606 ?        00:00:29 rtkit-daemon
+  1607 ?        00:12:23 irqbalance
+  1608 ?        00:00:04 lsmd
+  1610 ?        00:06:44 rngd
+  1612 ?        00:02:45 ModemManager
+  1624 ?        00:02:33 firewalld
+  1635 ?        00:01:22 ksmtuned
+  1640 ?        00:00:01 gssproxy
+  1694 ?        01:54:28 NetworkManager
+  1826 ?        00:00:00 kworker/6:1H
+  1885 ?        00:00:00 kworker/13:1H
+  1943 ?        00:00:00 kworker/10:1H
+  1944 ?        00:00:00 kworker/3:1H
+  1946 ?        00:00:00 kworker/7:1H
+  2147 ?        00:02:57 cupsd
+  2150 ?        00:02:24 tuned
+  2151 ?        00:00:34 sshd
+  2153 ?        00:00:00 xrdp-sesman
+  2154 ?        00:00:00 xrdp
+  2155 ?        00:09:08 rsyslogd
+  2158 ?        00:01:06 smbd
+  2159 ?        00:00:02 libvirtd
+  2163 ?        00:01:50 httpd
+  2171 ?        00:00:00 atd
+  2172 ?        00:07:40 crond
+  2174 ?        00:00:06 gdm
+  2429 ?        00:00:01 smbd-notifyd
+  2430 ?        00:00:01 cleanupd
+  2446 ?        00:02:13 miniserv.pl
+  2482 ?        00:00:31 lpqd
+  2702 ?        00:00:01 dnsmasq
+  2703 ?        00:00:00 dnsmasq
+  2712 ?        00:00:01 kworker/8:1H
+  2733 ?        00:00:00 colord
+  2759 tty1     00:01:22 X
+  2837 ?        00:00:00 kworker/9:1H
+  2883 ?        00:00:15 gdm-session-wor
+  2887 ?        00:00:00 kworker/11:1H
+  2888 ?        00:00:00 kworker/4:1H
+  2889 ?        00:05:21 gnome-session-b
+  2894 ?        00:00:00 dbus-launch
+  2895 ?        00:00:00 dbus-daemon
+  2915 ?        00:00:00 at-spi-bus-laun
+  2920 ?        00:00:00 dbus-daemon
+  2923 ?        00:00:00 at-spi2-registr
+  2976 ?        02:41:38 gnome-shell
+  2984 ?        00:03:02 upowerd
+  3022 ?        00:00:00 pulseaudio
+  3065 ?        00:00:31 ibus-daemon
+  3068 ?        00:00:00 ibus-dconf
+  3071 ?        00:00:00 ibus-x11
+  3073 ?        00:00:00 ibus-portal
+  3084 ?        00:00:00 xdg-permission-
+  3093 ?        00:02:23 boltd
+  3099 ?        00:00:06 wpa_supplicant
+  3100 ?        00:14:47 packagekitd
+  3103 ?        00:00:00 gsd-xsettings
+  3105 ?        00:00:00 gsd-a11y-settin
+  3107 ?        00:00:00 gsd-clipboard
+  3109 ?        00:16:39 gsd-color
+  3111 ?        00:00:00 gsd-datetime
+  3113 ?        00:00:00 gsd-housekeepin
+  3114 ?        00:00:00 gsd-keyboard
+  3115 ?        00:03:19 gsd-media-keys
+  3116 ?        00:00:00 gsd-mouse
+  3119 ?        00:03:23 gsd-power
+  3121 ?        00:00:00 gsd-print-notif
+  3124 ?        00:00:00 gsd-rfkill
+  3126 ?        00:00:00 gsd-screensaver
+  3127 ?        00:00:00 gsd-sharing
+  3132 ?        00:00:00 gsd-smartcard
+  3137 ?        00:00:00 gsd-sound
+  3142 ?        00:00:00 gsd-wacom
+  3194 ?        00:00:00 kworker/5:1H
+  3223 ?        00:00:00 ibus-engine-sim
+  3246 ?        00:00:00 kworker/1:1H
+  3328 ?        00:00:00 kworker/15:1H
+  3329 ?        00:00:00 kworker/14:1H
+  3330 ?        00:00:00 kworker/2:1H
+ 30786 ?        00:00:00 sshd
+ 30811 ?        00:00:00 sshd
+ 30815 pts/61   00:00:00 bash
+ 66910 ?        00:00:01 kworker/3:0
+ 75387 ?        00:00:00 httpd
+ 97841 ?        00:00:00 kworker/5:2
+100198 ?        00:00:00 nvim
+103729 ?        00:00:00 kworker/1:0
+104507 ?        00:00:04 kworker/0:0
+106782 ?        00:00:00 kworker/4:1
+112719 ?        00:00:00 kworker/2:0
+114335 ?        00:00:00 sshd
+114342 ?        00:00:00 sshd
+114344 pts/6    00:00:00 bash
+115529 ?        00:00:00 kworker/6:2
+116979 ?        00:00:00 kworker/12:0
+117543 ?        00:00:00 kworker/11:0
+120796 ?        00:00:00 kworker/u480:3
+120886 ?        00:00:00 kworker/13:1
+121160 ?        00:00:00 kworker/15:0
+121647 ?        00:00:00 sshd
+121657 ?        00:00:00 sshd
+121661 pts/15   00:00:00 bash
+121829 ?        00:00:00 sshd
+121895 ?        00:00:00 sshd
+121898 pts/5    00:00:00 bash
+122503 ?        00:00:00 kworker/9:2
+122766 ?        00:00:00 kworker/10:1
+123618 ?        00:00:00 kworker/u480:1
+123992 ?        00:00:00 sshd
+124081 ?        00:00:00 sshd
+124091 pts/8    00:00:00 bash
+124439 ?        00:00:00 sshd
+124453 ?        00:00:00 sshd
+124461 pts/0    00:00:00 bash
+124909 ?        00:00:00 kworker/11:2
+125149 ?        00:00:00 sshd
+125160 ?        00:00:00 sshd
+125163 pts/2    00:00:00 bash
+125320 ?        00:00:00 kworker/14:1
+125511 pts/15   00:00:00 vim
+125513 ?        00:00:00 kworker/8:2
+125938 ?        00:00:00 kworker/5:1
+126022 ?        00:00:00 kworker/7:1
+126049 ?        00:00:00 kworker/3:1
+126065 ?        00:00:00 kworker/10:2
+126246 ?        00:00:00 kworker/0:2
+126323 ?        00:00:00 kworker/14:2
+126550 ?        00:00:00 kworker/1:1
+126573 ?        00:00:00 kworker/6:1
+126609 ?        00:00:00 kworker/13:0
+126635 ?        00:00:00 sshd
+126669 ?        00:00:00 sshd
+126676 pts/3    00:00:00 bash
+126766 ?        00:00:00 kworker/u480:0
+126770 ?        00:00:00 kworker/9:0
+126963 ?        00:00:00 kworker/7:2
+126982 ?        00:00:00 kworker/15:1
+127099 ?        00:00:00 sshd
+127106 ?        00:00:00 sshd
+127108 pts/9    00:00:00 bash
+127165 ?        00:00:00 kworker/4:0
+127187 ?        00:00:00 kworker/12:2
+127210 ?        00:00:00 kworker/2:2
+127242 ?        00:00:00 kworker/8:1
+127256 ?        00:00:00 kworker/0:1
+127295 ?        00:00:00 kworker/5:0
+127399 ?        00:00:00 kworker/6:0
+127460 ?        00:00:00 kworker/3:2
+127494 ?        00:00:00 sshd
+127504 ?        00:00:00 sshd
+127506 pts/4    00:00:00 bash
+127543 ?        00:00:00 abrt-dbus
+127668 ?        00:00:00 kworker/u480:2
+127755 ?        00:00:00 kworker/11:1
+127845 ?        00:00:00 sshd
+127857 ?        00:00:00 sshd
+127867 ?        00:00:00 sleep
+127868 pts/1    00:00:00 bash
+127996 ?        00:00:00 kworker/9:1
+128011 ?        00:00:00 kworker/15:2
+128044 ?        00:00:00 kworker/1:2
+128085 ?        00:00:00 sshd
+128086 ?        00:00:00 sshd
+128089 pts/3    00:00:00 bash
+128102 pts/3    00:00:00 ps
+140448 ?        00:00:00 sshd
+140510 ?        00:00:00 sshd
+140512 pts/207  00:00:00 bash
+140750 pts/207  00:00:00 vim
+193762 ?        00:00:00 httpd
+193765 ?        00:00:00 httpd
+193767 ?        00:00:00 httpd
+224794 ?        00:00:10 httpd
+224795 ?        00:00:00 httpd
+224796 ?        00:00:00 httpd
+224797 ?        00:00:00 httpd
+224798 ?        00:00:00 httpd
+224799 ?        00:00:00 httpd

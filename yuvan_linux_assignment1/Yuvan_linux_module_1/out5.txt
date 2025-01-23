@@ -1,0 +1,8 @@
+total 8
+drwxr-xr-x. 2 21bcs122 cse-ug-2021b 4096 Jan 23 14:10 dir2
+lrwxrwxrwx. 1 21bcs122 cse-ug-2021b   16 Jan 23 14:10 sample_file_link -> dir2/sample_file
+-rw-r--r--. 1 21bcs122 cse-ug-2021b  221 Jan 23 14:10 out3.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b    0 Jan 23 14:10 file3
+-rw-r--r--. 1 21bcs122 cse-ug-2021b    0 Jan 23 14:10 file2
+-rw-r--r--. 1 21bcs122 cse-ug-2021b    0 Jan 23 14:10 file1
+-rw-r--r--. 1 21bcs122 cse-ug-2021b    0 Jan 23 14:10 files_info.txt
