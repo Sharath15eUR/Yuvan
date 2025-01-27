@@ -1,0 +1,19 @@
+All files
+total 4.1M
+-rwxr-xr-x. 1 21bcs122 cse-ug-2021b  663 Jan 27 09:29 assignment2.sh
+-rw-r--r--. 1 21bcs122 cse-ug-2021b  515 Jan 27 09:05 config.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b  148 Jan 27 09:27 filtered_log.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b 2.0M Jan 27 09:13 largefile1
+-rw-r--r--. 1 21bcs122 cse-ug-2021b 2.0M Jan 27 09:13 largefile2
+-rw-r--r--. 1 21bcs122 cse-ug-2021b  732 Jan 27 09:06 log.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b   10 Jan 27 09:29 out1.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b 1.1K Jan 27 09:27 out2.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b  905 Jan 27 09:27 out3.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b    0 Jan 27 09:27 out4.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b   28 Jan 27 09:27 out5.txt
+-rw-r--r--. 1 21bcs122 cse-ug-2021b    0 Jan 27 09:14 smallfile1
+-rw-r--r--. 1 21bcs122 cse-ug-2021b    0 Jan 27 09:14 smallfile2
+-rw-r--r--. 1 21bcs122 cse-ug-2021b  515 Jan 27 09:27 updated_config.txt
+Files larger than 1 Mb
+-rw-r--r--. 1 21bcs122 cse-ug-2021b 2.0M Jan 27 09:13 ./largefile1
+-rw-r--r--. 1 21bcs122 cse-ug-2021b 2.0M Jan 27 09:13 ./largefile2
