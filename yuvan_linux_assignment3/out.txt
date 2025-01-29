@@ -1,0 +1,23 @@
+test1 with no arguments
+Require exactly 3 arguments
+test2 with no up to date files
+important/file_1.bin, size=4017
+important/file_2.bin, size=10944
+important/file_3.bin, size=18633
+important/file_4.bin, size=4368
+important/file_5.bin, size=9079
+Backup in Process
+Backup Succesful
+test3 with up to date files
+important/file_1.bin, size=4017
+important/file_2.bin, size=10944
+important/file_3.bin, size=18633
+important/file_4.bin, size=4368
+important/file_5.bin, size=9079
+Backup in Process
+important/file_1.bin is up to date, SKIPPED
+important/file_2.bin is up to date, SKIPPED
+important/file_3.bin is up to date, SKIPPED
+important/file_4.bin is up to date, SKIPPED
+important/file_5.bin is up to date, SKIPPED
+Backup Succesful
