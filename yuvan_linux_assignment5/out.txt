@@ -1,0 +1,82 @@
+command: ./file_analyser.sh
+Error: Incorrect usage. Refer to --help for guidance.
+errors.log
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+
+command: ./file_analyser.sh -d logs
+Error: Incorrect usage. Refer to --help for guidance.
+errors.log:
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+Error: Incorrect usage. Refer to --help for guidance.
+
+command: ./file_analyser.sh --help
+Usage: ./file_analyser.sh [OPTIONS]
+
+Options:
+  -d <directory>   Search for a keyword recursively in a specified directory
+  -k <keyword>     Define the keyword to be searched
+  -f <file>        Search for a keyword in a specific file
+  --help           Display this help message
+
+
+error_log1
+"Error: Invalid input detected. Please check and try again."
+"Error: File not found! Double-check the path."
+"Something went wrong. Try again or check your command."
+erroe_log_2:
+"Error: Operation failed due to insufficient permissions."
+"Permission denied! Looks like you don’t have access."
+"That’s not how this works! Use --help for guidance."
+"Execution failed. Try checking your system resources."
+
+command: ./file_analyser.sh -d logs -k Error
+Initiating search in 'logs' for term 'Error'...
+Match found: 'Error' inside logs/error_log1
+Match found: 'Error' inside logs/error_log2
+Process completed with status code: 0
+
+script.sh
+#!/bin/bash
+
+# TODO: Add argument validation for better error handling
+echo "Starting the script..."
+
+process_file() {
+    local file=$1
+
+    if [[ ! -f "$file" ]]; then
+        echo "Error: File '$file' not found!"
+        return 1
+    fi
+
+    # TODO: Implement more advanced processing logic
+    echo "Processing file: $file"
+    cat "$file"
+}
+
+# TODO: Allow user to specify a file through command-line arguments
+FILE_NAME="sample.txt"
+process_file "$FILE_NAME"
+
+echo "Script execution completed."
+
+command: ./file_analyser.sh -f script.sh -k TODO
+Looking for 'TODO' in file 'script.sh'...
+# TODO: Add argument validation for better error handling
+    # TODO: Implement more advanced processing logic
+# TODO: Allow user to specify a file through command-line arguments
+Process completed with status code: 0
